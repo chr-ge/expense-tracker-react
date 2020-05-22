@@ -12,7 +12,7 @@ const Balance = () => {
         <>
             <h4>Your Balance</h4>
             <h1 className="balance">$
-                <CountUp start={0} end={total} duration={2.00} separator="," />
+                <CountUp start={0} end={parseFloat(total)} duration={2.00} separator="," />
             </h1>
         </>
     )
